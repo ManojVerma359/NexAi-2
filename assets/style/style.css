@@ -476,6 +476,8 @@ hr {
 .min_vh100 {
   min-height: 100vh !important;
 }
+
+
 .underline_nav::after {
   position: absolute;
   content: "";
@@ -615,6 +617,7 @@ display: none !important;
     margin-inline-end: 44px;
   }
 
+
   .items_center {
     align-items: center;
   }
@@ -687,6 +690,11 @@ display: none !important;
   }
   .pt_320 {
     padding-top: 170px;
+  }
+  .get_bgimg {
+    background-image: url(../images/get_bgimg.png);
+    background-repeat: no-repeat;
+    background-size: cover !important;
   }
 }
 @media (min-width: 992px) {
