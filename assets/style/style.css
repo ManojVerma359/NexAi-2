@@ -60,11 +60,11 @@
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #0066ff;
+  background-color: #ffff;
   color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 5px;
+  padding: 14px;
+  border-radius: 50px;
 }
 
 #myBtn:hover {
@@ -189,7 +189,7 @@ p {
 .learn_btn {
   background: #0066ff;
   border: none !important;
-  padding: 18px 32px;
+  padding: 18px 32px !important;
   color: white;
   border-radius: 12px;
   transition: all 300ms linear;
@@ -411,6 +411,9 @@ ul {
   border: #0066ff 2px solid;
   width: 100%;
 }
+.w_15{
+  width: 25px;
+}
 hr {
   margin: 0 !important;
 }
@@ -505,6 +508,9 @@ display: none !important;
     padding-top: 45px;
     padding-bottom: 25px;
   }
+  .w_50{
+    max-width: 50% !important; 
+  }
   .ptb_70 {
     padding-top: 35px;
     padding-bottom: 35px;
@@ -557,7 +563,7 @@ display: none !important;
   }
   :root {
     --fs_16: 15px !important;
-    --fs_18: 18px;
+    --fs_18: 15px;
     --fs_20: 18px !important;
     --fs_28: 11px !important;
     --fs_32: 25px !important;
@@ -588,7 +594,7 @@ display: none !important;
 @media (max-width: 767px) {
   :root {
     --fs_16: 16px;
-    --fs_18: 18px;
+    --fs_18: 15px;
     --fs_20: 20px;
     --fs_28: 15px;
     --fs_32: 32px;
@@ -649,6 +655,14 @@ display: none !important;
   }
   .mt_100 {
     margin-top: 60px;
+  }
+  .learn_btn {
+    background: #0066ff;
+    border: none !important;
+    padding: 12px 17px !important;
+    color: white;
+    border-radius: 12px;
+    transition: all 300ms linear;
   }
 }
 
