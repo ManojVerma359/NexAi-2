@@ -78,7 +78,7 @@
   margin-right: auto;
   margin-left: auto;
 }
-.slick-track{display: flex;}
+.slick-track{display: flex !important;}
 .bg_hero {
   background-image: url(../images/hero_gif.gif);
   background-size: cover;
@@ -689,6 +689,16 @@ display: none !important;
   
  }
 }
+
+@media (min-width:768px) {
+  .pe_164 {
+    margin-inline-end: 64px;
+  }
+  :root {
+     --fs_28: 20px;
+   
+  }
+}
 @media (min-width:1400px) {
   .pe_164 {
     margin-inline-end: 164px;
@@ -706,13 +716,4 @@ display: none !important;
     /* border-radius: 16px;
     border: 1px solid #a8a9b3; 
   } */
-}
-@media (min-width:768px) {
-  .pe_164 {
-    margin-inline-end: 64px;
-  }
-  :root {
-     --fs_28: 20px;
-   
-  }
 }
