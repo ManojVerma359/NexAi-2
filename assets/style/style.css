@@ -374,7 +374,7 @@ max-width: 58px;
 .get_bgimg {
   background-image: url(../images/get_bgimg.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain !important;
 }
 .footer_bgimg {
   background-image: url(../images/footer_bgimg.png);
